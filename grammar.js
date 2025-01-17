@@ -1250,7 +1250,7 @@ module.exports = grammar({
 
     procedure_param: $ => seq(
       optional($.procedure_type),
-      optional($.size),
+      optional($.procedure_size),
       optional($.OPTIONAL),
       $._WORD
     ),
@@ -1260,7 +1260,7 @@ module.exports = grammar({
       choice($.VALUE, $.REFERENCE)
     ),
 
-    size: $ => choice(
+    procedure_size: $ => choice(
       seq($.SIZE, optional($._IS), $.AUTO),
       seq($.SIZE, optional($._IS), $.DEFAULT),
       seq($.UNSIGNED, $.SIZE, optional($._IS), $.integer),
