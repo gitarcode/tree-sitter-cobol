@@ -6467,7 +6467,7 @@
           "members": [
             {
               "type": "SYMBOL",
-              "name": "size"
+              "name": "procedure_size"
             },
             {
               "type": "BLANK"
@@ -6522,7 +6522,7 @@
         }
       ]
     },
-    "size": {
+    "procedure_size": {
       "type": "CHOICE",
       "members": [
         {
