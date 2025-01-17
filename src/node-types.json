@@ -9871,7 +9871,7 @@
           "named": true
         },
         {
-          "type": "size",
+          "type": "procedure_size",
           "named": true
         }
       ]
@@ -11812,7 +11812,7 @@
     }
   },
   {
-    "type": "size",
+    "type": "procedure_size",
     "named": true,
     "fields": {},
     "children": {
